@@ -70,6 +70,12 @@ public class MainPage {
 //    ввести в строку поиска по сайту слово "java"
 //    нажать на 3 строчку в выдаче результатов
 //    кликнуть на эту строчку
+//
+//
+//
+//
+//
+//
     @Test
     public void searching() {
         open("https://www.udemy.com");
@@ -99,6 +105,11 @@ public class MainPage {
         productBlock.chooseProductSection(4).click();
 
         sleep(10000);
+    }
+
+    @Test
+    public void dbtest() {
+        //
     }
 }
 

@@ -20,10 +20,11 @@ public class BuyProductPage {
     }
 
     public void productHover(int sectionIndex, int cardIndex) {
-        productBlock.$(".tabs--active");
+//        productBlock.find(By.xpath("//div[@role='tabpanel'], div[@data-index='0']"));
 
 
 //        возьмем раздел по индексу(передадим в метод), в котором лежит button с классом tabs--active... и у него уже возьмем карточку с нужным индексом(так же передадим в метод)
+//        у активного раздела всегда tabindex=0, у неактивных tabindex=-1
 
         //tabs--active
     }
